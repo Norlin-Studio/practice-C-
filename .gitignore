@@ -1,0 +1,13 @@
+# Generated binaries and build output
+*.exe
+*.o
+*.obj
+*.pdb
+*.ilk
+build/
+# Machine-specific editor settings and backups
+.vscode/
+.vscode-backup*/
+# Local secrets
+.env
+.env.*

@@ -13,12 +13,12 @@ int main(){
         int c;c=m;m=n;n=c;
     }
 
-    while(m % n!=0){
+    while(n!=0){
     m = m % n;
         if(m < n){
         int c;c=m;m=n;n=c;
         }
     }
-    cout<<n;
+    cout<<m;
 
 }
